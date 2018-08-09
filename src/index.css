@@ -25,7 +25,7 @@ body {
 
 .container .title {
   flex-basis: 30%;
-  background: #000 url('/images/title-background.png');
+  background: #000 url('https://raw.githubusercontent.com/Shikigeru/React-Weather-App/gh-pages/images/title-background.png');
   color: #fff;
   height: 100%;
   display: flex;
