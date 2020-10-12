@@ -54,8 +54,8 @@ body {
   flex-wrap: wrap;
 }
 .container .info form input {
+  width: 40%;
   height: 40px;
-  flex-basis: 210px;
   margin-right: 10px;
   padding: 0 20px;
   border: none;
@@ -69,6 +69,7 @@ body {
   margin-right: 0;
 }
 .container .info form button {
+  flex: 1;
   display: inline-block;
   background: #00284b;
   color: #fff;
@@ -89,19 +90,17 @@ body {
 
 @media screen and (max-width: 960px) {
   .container .info form input {
-    width: 180px;
-    flex-basis: 180px;
+    max-width: 180;
   }
 }
 
 @media screen and (max-width: 856px) {
   .container .info form input {
-    flex-basis: 230px;
     margin: 0;
   }
   .container .info form button {
     margin: 10px auto 0 auto;
-    width: 100%; 
+    width: 100%;
   }
 }
 
